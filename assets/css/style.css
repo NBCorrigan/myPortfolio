@@ -260,8 +260,8 @@ main {
 
 .work img {
   /* Box-model */
-  width: 100%;
-  height: 100%;
+  width: 275px;
+  height: 205px;
 
   /* Visual */
   border: 0 none;
