@@ -383,9 +383,7 @@ input[type=submit] {
     float: right;
   }
 
-  .auth-image {
-    width: 50%;
-  }
+ 
 
   .sidebar {
     margin-bottom: 40px;
@@ -393,6 +391,10 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 480px) {
+  h1{
+    text-align: center;
+  }
+  
   #masthead {
     /* Positioning */
     position: static;
@@ -407,10 +409,34 @@ input[type=submit] {
     padding-top: 0;
   }
 
-  #logo,
+  #logo{
+    width:100%;
+  }
+  
+
   .work,
-  .auth-image {
+   {
     width: 100%;
+  }
+  .auth-image{
+    width: 75%;
+    margin: 10%;
+  }
+
+  .work h3 {
+    /* Positioning */
+    width: 274px;
+    text-align: center;
+    margin-left: 9%;
+  
+  }
+
+  .work img{
+    margin-left: 9%;
+  }
+
+  #social{
+    margin:0px 66px 20px;    
   }
 
   nav {
